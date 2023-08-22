@@ -12,6 +12,8 @@
     "autoprefixer": "10.4.15",
     "daisyui": "^3.5.1",
     "date-fns": "^2.30.0",
+    "embla-carousel-autoplay": "^8.0.0-rc11",
+    "embla-carousel-react": "^8.0.0-rc11",
     "next": "13.4.19",
     "postcss": "8.4.28",
     "react": "18.2.0",

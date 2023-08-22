@@ -1,5 +1,6 @@
 import getCategories from "@/utils/getCategories";
 import Link from "next/link";
+import Image from "next/image";
 
 const Header = async () => {
   const categoies = await getCategories();
@@ -49,7 +50,7 @@ const Header = async () => {
           </ul>
         </div>
         <Link href="/" className="btn btn-ghost normal-case text-xl">
-          ব্লগ অ্যাপ্লিকেশন
+          <Image src="/blog-logo.jpg" width={100} height={100} alt="Logo" />
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">

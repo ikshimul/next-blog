@@ -2,6 +2,8 @@ import getNewest from "@/utils/getNewest";
 import List from "./components/blog/List";
 import Image from "next/image";
 import Link from "next/link";
+import ImageGallery from "./components/ImageGallery";
+const OPTIONS = { containScroll: "trimSnaps" };
 
 export default async function Home() {
   const newest_posts = await getNewest();
@@ -68,6 +70,8 @@ export default async function Home() {
       </div>
       <h1 className="font-semibold text-xl text-left">সর্বশেষ সংবাদ</h1>
       {<List list={newest_posts} />}
+      <h1 className="font-semibold text-xl text-left">ছবির গ্যালারি</h1>
+      <ImageGallery list={newest_posts} options={OPTIONS} />
     </main>
   );
 }
