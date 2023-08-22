@@ -1,5 +1,7 @@
 "use client";
 import { useState } from "react";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const page = () => {
   let [FormObj, setFormObj] = useState({
@@ -17,7 +19,15 @@ const page = () => {
 
   const formSubmit = (e) => {
     e.preventDefault();
-    console.log(FormObj);
+    if (!FormObj.email) {
+      toast("পুরো নাম, ইমেইল এড্রেস এবং মেসেজ প্রয়োজনীয় ইনপুট");
+      return;
+    } else {
+      toast(
+        "আপনার বার্তা সফলভাবে পাঠানো হয়েছে৷ আপনার বার্তার জন্য আপনাকে ধন্যবাদ৷"
+      );
+      console.log(FormObj);
+    }
   };
 
   return (
@@ -32,7 +42,7 @@ const page = () => {
               <div className="md:flex items-center mt-12">
                 <div className="md:w-72 flex flex-col">
                   <label className="text-base font-semibold leading-none text-gray-800">
-                    ফুল নাম
+                    পুরো নাম
                   </label>
                   <input
                     value={FormObj.fname}

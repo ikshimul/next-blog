@@ -1,5 +1,6 @@
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import { ToastContainer } from "react-toastify";
 import "./globals.css";
 import { Hind_Siliguri } from "next/font/google";
 
@@ -21,6 +22,20 @@ export default function RootLayout({ children }) {
         <Header />
         {children}
         <Footer />
+        <ToastContainer
+          position="top-right"
+          autoClose={5000}
+          hideProgressBar={false}
+          newestOnTop={false}
+          closeOnClick
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover
+          theme="light"
+        />
+        {/* Same as */}
+        <ToastContainer />
       </body>
     </html>
   );
