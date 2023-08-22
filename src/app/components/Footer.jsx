@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <div>
-      <footer className="sticky top-[100vh] footer footer-center  bg-base-100 p-4 text-base-content ">
+      <footer className="sticky top-[100vh] footer footer-center  bg-base-100 p-4 text-base-content dark:text-white">
         <div>
           <p>
             কপিরাইট © 2023 - সমস্ত অধিকার সংরক্ষিত{" "}

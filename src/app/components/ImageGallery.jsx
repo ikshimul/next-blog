@@ -14,7 +14,7 @@ const ImageGallery = (props) => {
             <div className="carousel-item w-1/3" key={index}>
               <img
                 src={blog.img}
-                fill
+                fill="true"
                 className="w-full p-2"
                 alt={blog.title}
               />

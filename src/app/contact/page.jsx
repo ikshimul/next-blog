@@ -24,7 +24,7 @@ const page = () => {
     <main className="flex min-h-screen flex-col items-center justify-between">
       <div className="h-96 w-full">
         <div className="w-full flex items-center justify-center my-12">
-          <div className="absolute top-40 bg-white shadow rounded py-12 lg:px-28 px-8">
+          <div className="absolute top-24 bg-white shadow rounded py-12 lg:px-28 px-8 dark:bg-gray-300">
             <form onSubmit={formSubmit}>
               <p className="md:text-3xl text-xl font-bold leading-7 text-center text-gray-700">
                 এখানে যোগাযোগ করুন

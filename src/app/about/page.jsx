@@ -7,10 +7,10 @@ const page = () => {
       <div className="2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">
         <div className="flex flex-col lg:flex-row justify-between gap-8">
           <div className="w-full lg:w-5/12 flex flex-col justify-center">
-            <h1 className="text-3xl lg:text-4xl font-bold leading-9 text-gray-800 pb-4">
+            <h1 className="text-3xl lg:text-4xl font-bold leading-9 text-gray-800 dark:text-gray-100 pb-4">
               আমাদের সম্পর্কে
             </h1>
-            <p className="font-normal text-base leading-6 text-gray-600 ">
+            <p className="font-normal text-base leading-6 text-gray-600 dark:text-gray-200">
               জীবের মধ্যে সবচেয়ে সম্পূর্ণতা মানুষের। কিন্তু সবচেয়ে অসম্পূর্ণ
               হয়ে সে জন্মগ্রহণ করে। বাঘ ভালুক তার জীবনযাত্রার পনেরো- আনা মূলধন
               নিয়ে আসে প্রকৃতির মালখানা থেকে। জীবরঙ্গভূমিতে মানুষ এসে দেখা দেয়
@@ -37,10 +37,10 @@ const page = () => {
 
         <div className="flex lg:flex-row flex-col justify-between gap-8 pt-12">
           <div className="w-full lg:w-5/12 flex flex-col justify-center">
-            <h1 className="text-3xl lg:text-4xl font-bold leading-9 text-gray-800 pb-4">
+            <h1 className="text-3xl lg:text-4xl font-bold leading-9 text-gray-800 dark:text-gray-100 pb-4">
               আমাদের গল্প
             </h1>
-            <p className="font-normal text-base leading-6 text-gray-600 ">
+            <p className="font-normal text-base leading-6 text-gray-600 dark:text-gray-200">
               অংশ অংশভাক আঁইশ ইঁচড়েপাকা ঈক্ষণ ঈদৃক অংশভাগী জওয়ান অংশাঙ্কিত
               ইউক্যালিপটাস অংশাবতার হালহদিশ পিতৃতর্পণ টকানো ঈক্ষিত জগজ্জন
               তকতনামা আঁকুবাঁকু পঁইছা জগঝপ্প পঁহুছা দ্রাবিড়ী আঁকুড়ি ঈদৃক
